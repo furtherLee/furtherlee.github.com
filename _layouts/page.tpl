@@ -43,7 +43,7 @@
 			{% if site.meta.author.gravatar %}<img src="{{ site.meta.gravatar}}{{ site.meta.author.gravatar }}?s=48" />{% endif %}
 			<figcaption><strong>{{ site.meta.author.name }}</strong></figcaption>
 		</figure>
-		<p>Write something about yourself.</p>
+		<p>速冻沙漠，Further Lee。喜欢Coding，哲学，文学和羽毛球。喜欢说真话。</p>
 	</div>
 	
 	<div class="block block-license">
