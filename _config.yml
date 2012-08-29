@@ -6,14 +6,14 @@ permalink: /posts/:year/:month/:day/:title.html
 exclude:
   - README.md
 
-name: Desert
+name: 沙漠绿洲
 host: furtherlee.github.com
 
 custom:
     category:
-        default: Default Category
-	community: Community Category
-        bookcase: Bookcase Category
+        default: 杂七杂八
+        community: 圈子
+        bookcase: 书架
     categories:
       - name:  bookcase
         title: 书架
