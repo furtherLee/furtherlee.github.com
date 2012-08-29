@@ -12,13 +12,17 @@ host: furtherlee.github.com
 custom:
     category:
         default: Default Category
-        another: Another Category
+	community: Community Category
+        bookcase: Bookcase Category
     categories:
-      - name:  default
-        title: Default Category
+      - name:  bookcase
+        title: 书架
 
-      - name:  another
-        title: Eggache
+      - name: community 
+        title: 圈子
+
+      - name:  default
+        title: 杂七杂八
 
 meta:
     author:
