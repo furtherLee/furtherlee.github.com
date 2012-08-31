@@ -38,13 +38,14 @@
       </form>
       
       <div class="block block-about">
-	<h3>About</h3>
+	<h3>关于我</h3>
 	<figure>
-	  {% if site.meta.author.gravatar %}<img src="{{ site.meta.gravatar}}{{ site.meta.author.gravatar }}?s=48" />{% endif %}
+	  {% if site.meta.author.gravatar %}<img src="{{ site.meta.gravatar}}{{ site.meta.author.gravatar }}?s=256" />{% endif %}
 	  <figcaption><strong>{{ site.meta.author.name }}</strong></figcaption>
 	</figure>
 	<p>速冻沙漠，Further Lee。喜欢Coding，哲学，文学和羽毛球。喜欢说真话。</p>
       </div>
+
       <div class="bshare-custom icon-medium">
 	<a title="分享到Facebook" class="bshare-facebook" href="javascript:void(0);"></a>
 	<a title="分享到Twitter" class="bshare-twitter" href="javascript:void(0);"></a>
@@ -66,19 +67,6 @@
       </div>
       {% endif %}
       
-      <div class="block block-thank">
-	<h3>Powered by</h3>
-	<p>
-	  <a href="http://disqus.com/" target="_blank">Disqus</a>,
-	  <a href="http://elfjs.com/" target="_blank">elf+js</a>,
-	  <a href="https://github.com/" target="_blank">GitHub</a>,
-	  <a href="http://www.google.com/cse/" target="_blank">Google Custom Search</a>,
-	  <a href="http://en.gravatar.com/" target="_blank">Gravatar</a>,
-	  <a href="http://softwaremaniacs.org/soft/highlight/en/">HighlightJS</a>,
-	  <a href="https://github.com/mojombo/jekyll" target="_blank">jekyll</a>,
-	  <a href="https://github.com/mytharcher/SimpleGray" target="_blank">SimpleGray</a>
-	</p>
-      </div>
     </side>
 
     <script src="http://elfjs.googlecode.com/files/elf-0.4.0-min.js"></script>
