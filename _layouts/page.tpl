@@ -40,7 +40,7 @@
       <div class="block block-about">
 	<h3>关于我</h3>
 	<figure>
-	  {% if site.meta.author.gravatar %}<img src="{{ site.meta.gravatar}}{{ site.meta.author.gravatar }}?s=256" />{% endif %}
+	  {% if site.meta.author.gravatar %}<img src="{{ site.meta.gravatar}}{{ site.meta.author.gravatar }}?s=128" />{% endif %}
 	  <figcaption><strong>{{ site.meta.author.name }}</strong></figcaption>
 	</figure>
 	<p>速冻沙漠，Further Lee。喜欢Coding，哲学，文学和羽毛球。喜欢说真话。</p>
