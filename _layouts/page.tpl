@@ -90,5 +90,8 @@ site.Urls.DISCUS_COMMENT = '{{ site.meta.author.disqus }}' ? 'http://{{ site.met
 site.Vars.SITE_NAME = '{{ site.name }}';
 site.Vars.GOOGLE_CUSTOM_SEARCH_ID = '{{ site.meta.author.gcse }}';
 </script>
+
+<div class="bshare-custom icon-medium"><a title="分享到Facebook" class="bshare-facebook" href="javascript:void(0);"></a><a title="分享到Twitter" class="bshare-twitter" href="javascript:void(0);"></a><a title="分享到LinkedIn" class="bshare-linkedin" href="javascript:void(0);"></a><a title="分享到新浪微博" class="bshare-sinaminiblog" href="javascript:void(0);"></a><a title="分享到人人网" class="bshare-renren" href="javascript:void(0);"></a><a title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a><span class="BSHARE_COUNT bshare-share-count" style="float: none; ">6.71K</span></div><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=2&amp;lang=zh"></script><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC0.js"></script>
+
 </body>
 </html>
